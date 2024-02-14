@@ -21,7 +21,10 @@ function draw() {
   background(0, 0, 50); // deep blue
   
   ufo(x, y, d, r); // call the ufo() function (see below)
-  
+  y--;
+  if (y < 0){
+    y = height;
+  }
   // add code here to change the ship location each frame
   
   
